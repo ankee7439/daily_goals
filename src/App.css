@@ -1,0 +1,28 @@
+.home{
+    background-color: cornsilk;
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea,button{
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: medium;
+}
+button{
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(37,37,37);
+}
+.home > h2{
+    text-align: center;
+    margin: 20px;
+}
